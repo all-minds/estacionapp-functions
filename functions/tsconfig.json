@@ -1,15 +1,17 @@
 {
   "compilerOptions": {
+    "noUnusedLocals": false,
     "module": "commonjs",
     "noImplicitReturns": true,
-    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "outDir": "lib",
+    "baseUrl": ".",
     "sourceMap": true,
+    "esModuleInterop": true,
     "strict": true,
-    "target": "es2017"
+    "target": "ESNext"
   },
   "compileOnSave": true,
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }
